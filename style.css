@@ -4,6 +4,7 @@ body {
   margin: 0px;
   font-family: cursive, arial;
 }
+/* top bar*/
 .top {
   background-color: #322f2f;
   border: 1px solid #322f2f;
@@ -12,9 +13,11 @@ body {
   font-family: "permanent marker", cursive;
   font-size: 25px;
 }
+/*text alingment for main headers and etc*/
 h2, p, .center{
   text-align: center;
 }
+/*horizontal rule styling*/
 hr {
   height: 2px;
   background-color: black;
@@ -22,6 +25,7 @@ hr {
   width: 75%;
   height: 3px;
 }
+/*img handling and rounding*/
 img {
   margin: 30px;
   border-radius: 50%;
@@ -30,12 +34,14 @@ footer {
   margin: 30px;
   text-align: center;
 }
+/* link buttons*/
 .btn {
   border-color: black;
   background-color: green;
   border-radius: 10%;
   padding: 5px;
 }
+/* Links psuedo classes*/
 a:link {color: blue}
 a:visited{color: darkviolet}
 a:hover{color: #24c2c2}
